@@ -1,6 +1,11 @@
-FROM python
+FROM python:3.7.4
 
-WORKDIR /opt/demo/
-COPY /app .
+WORKDIR /dockerized_app
+
+COPY requirements.txt requirements.txt
+
 RUN pip install -r requirements.txt
-ENTRYPOINT python app.py
+
+COPY . .
+
+CMD ["python", "app/app.py"]
