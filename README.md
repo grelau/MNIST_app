@@ -1,6 +1,6 @@
 ## Flask application for hand written digit recognition using CNN
 ## Requirements
-You will need git and docker desktop installed
+You will need <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank">Git</a> and <a href="https://docs.docker.com/desktop/" target="_blank">Docker Desktop</a> installed
 ## Installation
 Open a command prompt to git clone this repo
 ```bash
